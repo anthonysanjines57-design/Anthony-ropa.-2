@@ -1,2 +1,304 @@
-# Anthony-ropa.-2
-Ropa
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ANTHONY | Ropa masculina</title>
+<meta name="description" content="ANTHONY — ropa masculina cómoda, moderna y con identidad propia. El Carmen, Manabí.">
+
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0a0a0a;color:#fff}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:auto;padding:0 20px}
+
+header{
+position:sticky;
+top:0;
+z-index:10;
+background:rgba(10,10,10,.94);
+border-bottom:1px solid #252525;
+backdrop-filter:blur(10px)
+}
+
+.nav{
+height:72px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px
+}
+
+.brand{
+font-size:27px;
+font-weight:900;
+letter-spacing:5px
+}
+
+.navlinks{
+display:flex;
+gap:24px;
+font-size:14px;
+color:#bbb
+}
+
+.hero{
+min-height:78vh;
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:40px;
+padding:60px 0
+}
+
+.kicker{
+letter-spacing:4px;
+color:#aaa;
+font-size:13px
+}
+
+h1{
+font-size:clamp(48px,8vw,92px);
+line-height:.9;
+margin:16px 0
+}
+
+.lead{
+font-size:20px;
+line-height:1.5;
+color:#c7c7c7;
+max-width:570px
+}
+
+.btn{
+display:inline-block;
+padding:15px 24px;
+border:1px solid #fff;
+border-radius:3px;
+margin-top:18px;
+font-weight:700
+}
+
+.heroimg{
+width:100%;
+border-radius:4px;
+display:block;
+border:1px solid #2b2b2b
+}
+
+section{
+padding:80px 0;
+border-top:1px solid #202020
+}
+
+h2{
+font-size:42px;
+margin:0 0 10px
+}
+
+.sub{
+color:#aaa;
+margin-bottom:35px
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px
+}
+
+.card{
+background:#111;
+border:1px solid #292929;
+padding:18px
+}
+
+.productimg{
+width:100%;
+height:330px;
+object-fit:cover;
+display:block;
+border-radius:2px;
+background:#181818
+}
+
+.card h3{
+margin:16px 0 7px
+}
+
+.price{
+color:#ccc;
+font-weight:700
+}
+
+.story{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:45px;
+align-items:center
+}
+
+.box{
+background:#111;
+border:1px solid #292929;
+padding:30px;
+line-height:1.7;
+color:#c9c9c9
+}
+
+footer{
+padding:45px 0;
+color:#888;
+border-top:1px solid #222
+}
+
+.tag{
+letter-spacing:3px;
+color:#fff
+}
+
+@media(max-width:800px){
+.hero,.story{
+grid-template-columns:1fr
+}
+
+.grid{
+grid-template-columns:1fr 1fr
+}
+
+.navlinks{
+display:none
+}
+}
+
+@media(max-width:520px){
+.grid{
+grid-template-columns:1fr
+}
+
+h2{
+font-size:34px
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="wrap nav">
+<div class="brand">ANTHONY</div>
+
+<nav class="navlinks">
+<a href="#coleccion">Colección</a>
+<a href="#marca">La marca</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</div>
+</header>
+
+<main>
+
+<section class="wrap hero">
+
+<div>
+<div class="kicker">EL CARMEN • MANABÍ</div>
+
+<h1>
+VISTE<br>
+LO TUYO.
+</h1>
+
+<p class="lead">
+Ropa masculina cómoda y moderna.
+Prendas lisas, cortes urbanos y espacio
+para crear una identidad propia.
+</p>
+
+<a class="btn" href="#coleccion">
+VER COLECCIÓN
+</a>
+</div>
+
+<div>
+<!-- AQUÍ PUEDES PONER TU FOTO PRINCIPAL -->
+<div style="
+width:100%;
+height:450px;
+background:#181818;
+border:1px solid #2b2b2b;
+border-radius:4px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#666;
+font-size:18px;
+">
+FOTO PRINCIPAL
+</div>
+</div>
+
+</section>
+
+
+<section id="coleccion">
+
+<div class="wrap">
+
+<h2>COLECCIÓN</h2>
+
+<p class="sub">
+Modelos lisos, sin estampados ni marcas externas.
+</p>
+
+<div class="grid">
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Camiseta Oversize</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Camisa Casual</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Bermuda Cargo</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Camiseta Básica</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Camisa Oversize</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Pantalón Casual</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Bermuda</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="card">
+<div class="productimg"></div>
+<h3>Camiseta Urbana</h3>
+<div class="price">Disponible próximamente</div>
+</article>
+
+<article class="
